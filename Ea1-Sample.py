@@ -59,7 +59,6 @@ def sickness():
     makeSick = np.random.rand(10, 10)
     chosenr, chosenc = np.where(makeSick > 0.995) #Every cow has a .5% chance of getting sick every week.
     sick[chosenr, chosenc] = 1
-    #print(sick)
 
 #Cures a cow of the user's choice
 def doCure():
